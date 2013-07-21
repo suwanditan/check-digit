@@ -1,4 +1,5 @@
-check-digit
-===========
+checkio-task-binary-morse
+=====================
 
-CheckIO proposed task "CheckSum"
+This is the task for Checkio "CheckSum"
+
