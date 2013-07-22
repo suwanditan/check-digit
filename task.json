@@ -1,7 +1,8 @@
 {
     "global": {
 
-        "task_name": "CheckSum"
+        "task_name": "CheckSum",
+        "task_slug": "check-digit"
     },
     "editor": {
         "expand_animation_results": true,
