@@ -1,4 +1,4 @@
-checkio-task-binary-morse
+checkio-task-check-digit
 =====================
 
 This is the task for Checkio "CheckSum"
