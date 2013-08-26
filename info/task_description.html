@@ -240,6 +240,19 @@
     <strong>Output: </strong> List of its final character and sum of digits
 </p>
 
+{% if "python 2" in interpreter|lower %}
+<div class="for_info_only">
+    <p>
+        <strong>Example:</strong>
+    </p>
+    <pre class="brush: python">checkio(u"799 273 9871") == ["3", 67]
+checkio(u"139-MT") == ["8", 52])
+checkio(u"123") == ["0", 10])
+checkio(u"999_999") == ["6", 54])
+checkio(u"+61 820 9231 55") == ["3", 37])
+checkio(u"VQ/WEWF/NY/8U") == ["9", 201])</pre>
+</div>
+{% else %}
 <div class="for_info_only">
     <p>
         <strong>Example:</strong>
@@ -251,3 +264,5 @@ checkio("999_999") == ["6", 54])
 checkio("+61 820 9231 55") == ["3", 37])
 checkio("VQ/WEWF/NY/8U") == ["9", 201])</pre>
 </div>
+{% endif %}
+
