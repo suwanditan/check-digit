@@ -75,14 +75,18 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             }
             //Dont change the code before it
 
-            //Your code here about test explanation animation
-            //$content.find(".explanation").html("Something text for example");
-            //
-            //
-            //
-            //
-            //
-
+            var $table = $content.find(".explanation table");
+            var $tr1 = $table.find("tr:eq(0)");
+            var $tr2 = $table.find("tr:eq(1)");
+            for (var i = 0; i < explanation[0].length; i++){
+                var $td = ($("<td></td>").text(explanation[0][i]));
+                $tr1.append($td);
+                $td = ($("<td></td>").text(explanation[1][i]));
+                if (i % 2 === 0) {
+                    $td.css("color", "#F0801A");
+                }
+                $tr2.append($td);
+            }
 
             this_e.setAnimationHeight($content.height() + 60);
 

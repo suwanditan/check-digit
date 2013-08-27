@@ -56,6 +56,20 @@
     border-color: #de0202;
 }
 
+.animation-content .explanation table {
+    border-collapse: collapse;
+}
+
+.animation-content .explanation table td{
+    padding: 2px;
+    border: #006CA9 solid 1px;
+    text-align: center;
+    color: #294270;
+    font-family: verdana;
+
+}
+
+
 .tryit-content {
     background-color: #dfe8f7;
     font-family: verdana;
