@@ -70,7 +70,7 @@ TESTS = {
         },
         {
             "input": "00000000EK8XO5V9T8",
-            "answer": ["2", 168],
+            "answer": ["2", 169],
             "explanation": "zero padding no effect"
         },
         {
